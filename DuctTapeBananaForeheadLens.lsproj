@@ -3,7 +3,7 @@
     "document_id": "ixz_G-aGrfW33d9tBrX8",
     "original_document_id": "D7Ik4n-pJaaxSMJC8FVD",
     "version": "24",
-    "lastChanged": "1595306117410",
+    "lastChanged": "1595306515750",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -31,6 +31,9 @@
                 [
                     [
                         "BananaMaterial"
+                    ],
+                    [
+                        "CreditAlpha"
                     ],
                     [
                         "DuctTapeMaterial"
@@ -285,6 +288,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "36",
+                    "uid": "1595306289432998:2961",
+                    "name": "Files\/File57.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -301,7 +312,22 @@
                     "uidsToFeatureNamesWithIntensity": ""
                 },
                 "ScreenTransform": {
-                    "uidData": "",
+                    "uidData": [
+                        {
+                            "k": "1595306331926002:8747",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
                     "generalData": ""
                 }
             }
@@ -316,12 +342,15 @@
                 "5": "1595304542045275:2883",
                 "6": "1595304781569590:37270",
                 "7": "1595304781570021:37271",
-                "8": "1595304781573097:37291"
+                "8": "1595304781573097:37291",
+                "9": "1595306331891880:8538",
+                "10": "1595306331904901:8611",
+                "11": "1595306331925708:8746"
             }
         },
         "LayerComponent": {
             "nextLayerId": "2",
-            "showOrthographicLayer": "false",
+            "showOrthographicLayer": "true",
             "layersInfo": [
                 {
                     "layerId": "0",
@@ -458,6 +487,10 @@
                 {
                     "k": "56",
                     "v": "Files\/File56.png"
+                },
+                {
+                    "k": "57",
+                    "v": "Files\/File57.js"
                 }
             ]
         },
@@ -513,6 +546,10 @@
                     {
                         "k": "989",
                         "v": "IconSource.png"
+                    },
+                    {
+                        "k": "990",
+                        "v": "CreditAlpha.js"
                     }
                 ],
                 "hashes": [
@@ -602,7 +639,7 @@
                     },
                     {
                         "k": "987",
-                        "v": "7b2f00ca4f373834bd02711685233e27"
+                        "v": "51394c57dec0f50684e1c2f96d0ceeea"
                     },
                     {
                         "k": "988",
@@ -611,14 +648,18 @@
                     {
                         "k": "989",
                         "v": "dee0177b55a670f7616b0c0eb3c17b6c"
+                    },
+                    {
+                        "k": "990",
+                        "v": "db50ced2ab3f6080ee3a2da797902079"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-07-20T21:35:08",
+                        "lastModified": "2020-07-20T21:39:46",
                         "name": "Public",
-                        "hash": "249c31fcfa416af25bc3ce5b0f94b694",
+                        "hash": "3d9d540c87b0efb71d613e64c018cbe4",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -679,9 +720,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-07-20T21:35:08",
+                                "lastModified": "2020-07-20T21:39:46",
                                 "name": "DuctTapeMaterial.lsmat",
-                                "hash": "7e239444a5b2f8880060f9b99362aec6",
+                                "hash": "6757346ebea84802a9677fdc974a80fe",
                                 "children": ""
                             },
                             {
@@ -689,6 +730,13 @@
                                 "lastModified": "2019-12-16T20:10:40",
                                 "name": "banana_albedo.jpg",
                                 "hash": "58c5d52bc4692df9bd10be5e6b27354e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-07-20T21:38:43",
+                                "name": "CreditAlpha.js",
+                                "hash": "db50ced2ab3f6080ee3a2da797902079",
                                 "children": ""
                             },
                             {
@@ -1088,19 +1136,27 @@
                         "publicId": "989",
                         "source": "\/Users\/ejwessel\/Desktop\/Screen Shot 2020-07-20 at 21.31.02.png",
                         "additional": ""
+                    },
+                    {
+                        "name": "CreditAlpha",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "36",
+                        "dependency": "0",
+                        "uid": "1595306289432998:2961",
+                        "fileId": "57",
+                        "originalId": "18446744073709551615",
+                        "publicId": "990",
+                        "source": "\/private\/var\/folders\/3l\/pxx9ncrs6j38399lw07gqxbw0000gn\/T\/Lens Studio-PLjSaU\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1595305872510382:126416",
-                        "path_list": [
-                            "Screen Shot 2020-07-20 at 21"
-                        ]
-                    }
+                "objects": [
+                    "1595306331925708:8746"
                 ]
             }
         },
